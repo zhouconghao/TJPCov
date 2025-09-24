@@ -101,7 +101,7 @@ def get_NFW_profile():
 def get_fsky(tr1, tr2, tr3, tr4):
     config = get_config()
     fsky = config["tjpcov"].get("fsky", None)
-    return fsky
+    return np.float64(fsky).item()
 
 
 def test_smoke():
