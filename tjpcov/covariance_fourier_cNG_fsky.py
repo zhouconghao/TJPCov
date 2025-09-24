@@ -1,6 +1,7 @@
 from .covariance_fourier_cNG import FouriercNGHaloModel
 import numpy as np
 
+
 class FouriercNGHaloModelFsky(FouriercNGHaloModel):
     """Class to compute the CellxCell Halo Model cNG Covariance."""
 
